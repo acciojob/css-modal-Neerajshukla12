@@ -1,69 +1,68 @@
-/*  your css code here. If applicable */
 body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f5f5f5;
-    }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
 
-    #openModal {
-      padding: 10px 20px;
-      background-color: #011e29;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
+#openModal {
+  padding: 10px 20px;
+  background-color: #011e29;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.5);
-    }
+.modal {
+  display: none;              /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
 
-    .modal:target {
-      display: block;
-    }
+.modal:target {
+  display: block;             /* Show when targeted */
+}
 
-    .modal-content {
-      background-color: #fff;
-      margin: 10% auto;
-      padding: 0;
-      border-radius: 8px;
-      width: 50%;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-    }
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 0;
+  border-radius: 8px;
+  width: 50%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
 
-    .modal-header {
-      padding: 15px;
-      background-color: #011e29;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-    }
+.modal-header {
+  padding: 15px;
+  background-color: #011e29;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
 
-    .modal-header h2 {
-      margin: 0;
-    }
+.modal-header h2 {
+  margin: 0;
+}
 
-    .close-modal {
-      text-decoration: none;
-      color: white;
-      font-size: 22px;
-      font-weight: bold;
-    }
+.close-modal {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
 
-    .modal-body {
-      padding: 20px;
-      font-size: 16px;
-      color: #333;
-    }
+.modal-body {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+}
